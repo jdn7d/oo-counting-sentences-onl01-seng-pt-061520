@@ -29,7 +29,7 @@ class String
 
   def count_sentences
     self.split(/\.|\?|\!/).delete_if {|word| word.size < 1}.size
-    
+
   end
 binding.pry
 end
