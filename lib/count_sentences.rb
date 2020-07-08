@@ -5,7 +5,7 @@ class String
   def sentence?
     if self.end_with?(".")
     return true
-  else 
+  else
     return false
   end
   end
@@ -14,7 +14,7 @@ class String
 
     if self.end_with?("?")
     return true
-  else 
+  else
     return false
   end
   end
@@ -24,7 +24,7 @@ class String
   def exclamation?
     if self.end_with?("!")
     return true
-  else 
+  else
     return false
   end
   end
