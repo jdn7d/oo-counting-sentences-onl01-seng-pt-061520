@@ -34,5 +34,5 @@ class String
     self.split(/\.|\?|\!/).delete_if {|word| word.size <= 1}.size
     binding.pry
   end
-end
+
 end
